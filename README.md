@@ -1,1 +1,3 @@
 # Network-Project
+
+This project consisted of writing up a Computer Networking client which would connect to a remote server and interact with it. This project used the incorporation of various system calls, provided by the network API. On connection to the remote server, it would send a message in the form "CS230 STATUS <message>\n" where the given message would be encrypted by the Caesar Cipher encryption method and sent back to the server. The server will send a message in the "CS230 STATUS <message>BYE\N" where bye would be the flag required to be captured here. On capturing the flag, the connection to the server would be terminated. 
